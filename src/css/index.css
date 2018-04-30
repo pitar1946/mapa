@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#customInfoBox {
+	   position: absolute;
+     background-color:#32f829;
+     color: #ffffff;
+     width: 140px;
+     border-radius: 5px;
+     padding: 10px;
+     box-sizing: border-box;
+     font-size:12px;
+     font-family: Helvetica, sans-serif;
+     font-weight: bold;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+ }
+ #customInfoBox:before{
+     content: '';
+     position: absolute;
+     width: 15px;
+     height: 15px;
+		 bottom: 0;
+		 left: 50%;
+		 transform: translateX(-50%) translateY(7px) rotate(45deg);
+		 background-color:#32f829;
+     box-shadow:  2px 2px 0 0 rgb(0,0,0,0.6);
+  }
+#customInfoBox span{
+    font-size: 11px;
+    margin-left: 110px;
+    cursor: pointer;
+    border:1px solid #ffffff;
+    padding: 0 2px 0 2px;
+    font-weight: bold;
+}
+#customInfoBox span:hover{
+    color: #0dbf05;
+    border:1px solid #0dbf05;
+}
